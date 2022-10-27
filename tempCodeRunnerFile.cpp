@@ -1,5 +1,3 @@
-
-// codechef problem code START61
 #include <iostream>
 using namespace std;
 
@@ -9,9 +7,9 @@ int main()
     cin >> t;
     do
     {
-        int x;
-        cin >> x;
-        x >= 30 ? cout << "YES" << endl : cout << "NO" << endl;
+        int a, b, c;
+        cin >> a >> b >> c;
+        cout << c - a << endl;
         t--;
     } while (t != 0);
     return 0;
